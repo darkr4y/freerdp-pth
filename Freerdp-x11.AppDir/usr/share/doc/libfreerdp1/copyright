@@ -1,0 +1,163 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: FreeRDP
+Upstream-Contact: FreeRDP project <freerdp-devel@lists.sourceforge.net>
+Source: http://github.com/FreeRDP/FreeRDP
+
+Files: *
+Copyright:
+ 2009-2011, Marc-Andre Moreau <marcandre.moreau@gmail.com>
+License: Apache-2.0
+Comment:
+ Except for the files listed below, Marc-Andre Moreau appears to
+ be the main copyright holder of FreeRDP.
+
+Files:
+ *CMakeLists.txt
+ cmake/*.cmake
+Copyright:
+ 2011 Otavio Salvador <otavio@ossystems.com.br>
+ 2011, Marc-Andre Moreau <marcandre.moreau@gmail.com>
+License: Apache-2.0
+
+Files:
+ cmake/FindOptionalPackage.cmake
+ cmake/FindXmlto.cmake
+Copyright:
+ 2011, Nils Andresen <nils@nils-andresen.de>
+License: Apache-2.0
+
+Files:
+ include/freerdp/rail.h
+ cunit/test_rail.c
+ cunit/test_rail.h
+ channels/rail/rail_main.h
+ channels/rail/rail_orders.h
+ channels/rail/rail_orders.c
+ channels/rail/rail_main.c
+ ibfreerdp-core/window.h
+ libfreerdp-core/window.c
+Copyright:
+ 2011, Roman Barabanov <romanbarabanov@gmail.com>
+License: Apache-2.0
+
+Files:
+ include/freerdp/codec/bitmap.h
+ libfreerdp-codec/include/bitmap.c
+ libfreerdp-codec/bitmap.c
+ cunit/test_bitmap.c
+ cunit/test_bitmap.h
+Copyright:
+ 2011, Jay Sorg <jay.sorg@gmail.com>
+License: Apache-2.0
+
+Files:
+ include/freerdp/utils/passphrase.h
+ include/freerdp/utils/signal.h
+ libfreerdp-utils/signal.c
+ libfreerdp-utils/passphrase.c
+Copyright:
+ 2011, Shea Levy <shea@shealevy.com>
+License: Apache-2.0
+
+Files:
+ libfreerdp-codec/rfx_neon.c
+ libfreerdp-codec/rfx_neon.h
+Copyright:
+ 2001, Martin Fleisz <mfleisz@thinstuff.com>
+License: Apache-2.0
+
+Files:
+ libfreerdp-codec/rfx_encode.c
+ libfreerdp-codec/rfx_decode.c
+ libfreerdp-codec/rfx_sse2.c
+Copyright:
+ 2011, Norbert Federa <nfedera@thinstuff.com>
+License: Apache-2.0
+
+Files:
+ cunit/test_mppc.c
+ cunit/test_mppc.h
+ libfreerdp-core/mppc.c
+ libfreerdp-core/mppc.h
+Copyright:
+ 2011, Laxmikant Rashinkar <LK.Rashinkar@gmail.com>
+License: Apache-2.0
+
+Files:
+ resources/conv_to_ewm_prop.py
+Copyright:
+ 2011, Anthony Tong <atong@trustedcs.com>
+License: Apache-2.0
+
+Files:
+ channels/rdpdr/smartcard/scard_main.c
+Copyright:
+ 2011, Anthony Tong <atong@trustedcs.com>
+ 2011, Eduardo Fiss Beloni <beloni@ossystems.com.br>
+License: Apache-2.0
+
+Files:
+ channels/rdpdr/smartcard/scard_operations.c
+Copyright:
+ 2006, Alexi Volkov <alexi@myrealbox.com>
+ 2011 Anthony Tong <atong@trustedcs.com>
+License: Apache-2.0
+
+Files:
+ channels/rdpdr/parallel/parallel_main.c
+ channels/rdpdr/smartcard/scard_main.h
+ channels/rdpdr/serial/serial_main.c
+ channels/rdpdr/serial/serial_tty.c
+ channels/rdpdr/serial/serial_constants.h
+ channels/rdpdr/serial/serial_tty.h
+Copyright:
+ 2011, Eduardo Fiss Beloni <beloni@ossystems.com.br>
+License: Apache-2.0
+
+Files:
+ include/freerdp/channels/wtsvc.h
+ libfreerdp-channels/wtsvc.c
+ libfreerdp-channels/wtsvc.h
+Copyright:
+ 2011-2012 Vic Lee
+License: Apache-2.0
+
+License: Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+      http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ can be found in /usr/share/common-licenses/Apache-2.0 file.
+
+
+Files: debian/*
+Copyright:
+ 2010, Otavio Salvador <otavio@debian.org>
+ 2011, Rex Tsai <rex.tsai@ubuntu.com>
+ 2013, Mike Gabriel <sunweaver@debian.org>
+License: GPL-2+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ can be found in /usr/share/common-licenses/GPL-2 file.

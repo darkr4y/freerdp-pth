@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=xfreerdp-x11
+Exec=xfreerdp-x11
+Comment=Tool to pth rdp
+Terminal=true
+Icon=xfreerdp-x11
